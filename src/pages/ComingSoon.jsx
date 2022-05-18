@@ -14,7 +14,7 @@ function ComingSoon(props) {
 
     useEffect(() => {
         setInterval(() => setNewTime(), 1000);
-    }, []);
+    });
 
     const setNewTime = () => {
         if (countdownDate) {
